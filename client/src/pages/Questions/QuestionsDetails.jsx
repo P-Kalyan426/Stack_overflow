@@ -30,7 +30,7 @@ const QuestionsDetails = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const location = useLocation();
-  const url = "https://stack-overflow-clone-gautam.vercel.app/";
+  const url = "https://stack-overflow-p-kalyan426.vercel.app/";
 
   const handlePostAns = (e, answerLength) => {
     e.preventDefault();
