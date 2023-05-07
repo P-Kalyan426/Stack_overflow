@@ -44,7 +44,7 @@ const Chatbot = ({ setIsOpen, isVerified, setIsVerified }) => {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        email: email,
+        email: 'p.kalyan8888@gmail.com',
         subject: 'Email Verification OTP',
         message: "Hi, As you are trying to verify, here is the OTP that you need to enter to verify your email address. If you didn't make this request, please ignore this email.",
         duration: 1
