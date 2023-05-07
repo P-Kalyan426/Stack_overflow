@@ -1,11 +1,11 @@
 import nodemailer from 'nodemailer'
 
-const { AUTH_EMAIL, AUTH_PASS } = process.env
+const { AUTH_PASS } = process.env
 
 let transporter = nodemailer.createTransport({
   host: 'smtp-mail.outlook.com',
   auth: {
-    user: AUTH_EMAIL,
+    user: 'p.kalyan8888@gmail.com',
     pass: AUTH_PASS,
   }
 })
